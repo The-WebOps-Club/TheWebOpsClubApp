@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/webOpsClub"
+        android:text="DigitalClock" />
+
+    <Button
+        android:id="@+id/Shaastra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/digitalClock1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#3090C7"
+        android:text="Shaastra IIT M"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/webOpsClub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Saarang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#3090C7"
+        android:text="The Web Ops Club IIT M"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Saarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Shaastra"
+        android:layout_below="@+id/Shaastra"
+        android:layout_marginTop="32dp"
+        android:background="#3090C7"
+        android:text="Saarang IIT M"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:ems="10"
+        android:hint="enter your password "
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:background="#3090C7"
+        android:text="Log In"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Forgot your password?" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/webOpsClub"
+        android:layout_below="@+id/webOpsClub"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="enter your email-id"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+</RelativeLayout>

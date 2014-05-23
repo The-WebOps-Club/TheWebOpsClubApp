@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#3090C7"
+        android:minHeight="24dip"
+        android:minWidth="32dip"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home"
+        android:layout_alignBottom="@+id/home"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="#3090C7"
+        android:text="About"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/about"
+        android:layout_alignBottom="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:background="#3090C7"
+        android:text="Share"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="149dp"
+        android:layout_toLeftOf="@+id/Newsletters"
+        android:background="#3090C7"
+        android:text="FeedBack"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Newsletters"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/Share"
+        android:background="#3090C7"
+        android:text="Home"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Newsletters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/feedback"
+        android:layout_alignBottom="@+id/feedback"
+        android:layout_toLeftOf="@+id/signup"
+        android:background="#3090C7"
+        android:text="NewsLetters"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
