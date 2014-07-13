@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/webOpsClub"
+        android:text="DigitalClock" />
+
+    <Button
+        android:id="@+id/webOpsClub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:background="#3090C7"
+        android:text="The Web Ops Club IIT M"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Shaastra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Saarang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="#3090C7"
+        android:text="Shaastra IIT M"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Saarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/webOpsClub"
+        android:layout_alignRight="@+id/Shaastra"
+        android:layout_marginBottom="56dp"
+        android:background="#3090C7"
+        android:text="Saarang IIT M"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
