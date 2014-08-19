@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.thewebopsclubiitm.AlarmReceiver"></activity>
+        <activity android:name="com.example.thewebopsclubiitm.DisplayUpdateActivity"></activity>
+        <activity android:name="com.example.thewebopsclubiitm.SplashActivity"></activity>
+        <activity android:name="com.example.thewebopsclubiitm.Update"></activity>        
+        <activity android:name="com.example.thewebopsclubiitm.UpdateDbService"></activity>        
+        <activity android:name="com.example.thewebopsclubiitm.UpdatesListActivity"></activity>
     </application>
 
 </manifest>

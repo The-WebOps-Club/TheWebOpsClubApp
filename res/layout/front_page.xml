@@ -4,7 +4,7 @@
     android:layout_height="match_parent" >
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText1"
@@ -14,17 +14,9 @@
         android:inputType="textPassword"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/login"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:text="Forgot your password?" />
-
+  
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/signup_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -36,39 +28,18 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/Newsletters"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/feedback"
-        android:layout_toLeftOf="@+id/signup"
-        android:background="#3090C7"
-        android:text="NewsLetters"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/feedback"
-        android:layout_alignBottom="@+id/feedback"
-        android:layout_toLeftOf="@+id/textView1"
-        android:background="#3090C7"
-        android:text="Home"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/Share"
+        android:id="@+id/idea_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText1"
         android:layout_alignLeft="@+id/editText2"
         android:layout_marginBottom="37dp"
         android:background="#3090C7"
-        android:text="Share"
+        android:text="Share an idea"
         android:textColor="#FFFFFF" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/email_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText2"
@@ -79,37 +50,58 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/about"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/feedback"
-        android:layout_alignBottom="@+id/feedback"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="41dp"
-        android:background="#3090C7"
-        android:text="About"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/feedback"
+        android:id="@+id/contact_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/Share"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="18dp"
+        android:layout_marginBottom="16dp"
         android:background="#3090C7"
-        android:text="FeedBack"
+        android:text="Contact us"
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/about_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/feedback"
+        android:layout_alignBottom="@+id/feedback"
+        android:layout_toLeftOf="@+id/textView1"
+        android:background="#3090C7"
+       android:textColor="#FFFFFF"
+         android:text="About" />
+
+    <Button
+        android:id="@+id/projects_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/feedback"
+        android:layout_alignBottom="@+id/feedback"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#3090C7"
+        android:text="Projects"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/login_fp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
-        android:layout_marginTop="14dp"
-        android:layout_toRightOf="@+id/Share"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/Newsletters"
         android:background="#3090C7"
         android:text="Log In"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/updates_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/idea_fp"
+        android:layout_alignBottom="@+id/idea_fp"
+        android:layout_toRightOf="@+id/feedback"
+        android:background="#3090C7"
+        android:text="updates"
         android:textColor="#FFFFFF" />
 
 </RelativeLayout>
